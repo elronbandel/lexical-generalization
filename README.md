@@ -12,7 +12,7 @@ The finetuning of pretrained models for text-pair classification tasks was done 
 
 1. MNLI
 
-    ```bash
+    ```sh
     python train.py \
         --model_name_or_path [PRETRAINED_MODEL] \
         --task_name mnli \
