@@ -186,3 +186,20 @@ In every example choose finetuned model from huggingface hub or path to local mo
         
         evals = evaluate_answerability_squad(SQUAD2_MODEL_PATH, dataset)
     ```
+ 
+ 
+ ## Citation
+ 
+ 
+```bib
+@misc{https://doi.org/10.48550/arxiv.2210.12673,
+  doi = {10.48550/ARXIV.2210.12673},
+  url = {https://arxiv.org/abs/2210.12673},
+  author = {Bandel, Elron and Goldberg, Yoav and Elazar, Yanai},
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Lexical Generalization Improves with Larger Models and Longer Training},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
