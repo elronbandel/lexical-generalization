@@ -1,8 +1,7 @@
-# Largely, right for beeter resasons: Lexical Generalization Improves with Model Size
+Lexical Generalization Improves with Larger Models and Longer Training (EMNLP 2022)
 
 ## 1. Introduction
-This repository contains the training and evaluation code and data used in the paper "Largely, Right for Better Reasons:
-Lexical Generalization Improves with Model Size"
+This repository contains the training and evaluation code and data used in the EMNLP 2022 paper "Lexical Generalization Improves with Larger Models and Longer Training"
 
 
 ## 2. Training
