@@ -3,6 +3,7 @@
 ## 1. Introduction
 This repository contains the training and evaluation code and data used in the EMNLP 2022 paper "Lexical Generalization Improves with Larger Models and Longer Training"
 
+> **_NOTE:_**  The evaluation test presnted in the paper, ALSQA, can be found in: https://huggingface.co/datasets/biu-nlp/alsqa.
 
 ## 2. Training
 ### Text Pair Classification
@@ -169,7 +170,7 @@ In every example choose finetuned model from huggingface hub or path to local mo
         from datasets import load_dataset
         from evaluation import evaluate_answerability_classification
         
-        dataset = load_dataset('json', data_files='data/alsqa.json', field='data')['train']
+        dataset = load_dataset('biu-nlp/alsqa', split='test')
         
         evals = evaluate_answerability_classification(ANSWERABILITY_MODEL_PATH, dataset)
     ```
@@ -182,7 +183,7 @@ In every example choose finetuned model from huggingface hub or path to local mo
         from datasets import load_dataset
         from evaluation import evaluate_answerability_squad
         
-        dataset = load_dataset('json', data_files='data/alsqa.json', field='data')['train']
+        dataset = load_dataset('biu-nlp/alsqa', split='test')
         
         evals = evaluate_answerability_squad(SQUAD2_MODEL_PATH, dataset)
     ```
