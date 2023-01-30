@@ -5,6 +5,9 @@ This repository contains the training and evaluation code and data used in the E
 
 > **_NOTE:_**  The evaluation test set presnted in the paper, ALSQA, can be found in 🤗 at https://huggingface.co/datasets/biu-nlp/alsqa.
 
+<img src="figures/schematic.png" alt="schema" style="width:50%;"/><img src="figures/results.png" alt="results" style="width:45.35%;"/>
+
+
 ## 2. Training
 ### Text Pair Classification
 The finetuning of pretrained models for text-pair classification tasks was done with the code in 'train.py' modified from huggingface's finetuning [example](https://github.com/huggingface/transformers/blob/4bae96ec2bee265f938fc262201538819419089a/examples/text-classification/run_glue.py). The full hyper-parameters can be found in the table in the next section.
