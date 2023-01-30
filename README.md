@@ -3,7 +3,7 @@
 ## 1. Introduction
 This repository contains the training and evaluation code and data used in the EMNLP 2022 paper "Lexical Generalization Improves with Larger Models and Longer Training"
 
-> **_NOTE:_**  The evaluation test presnted in the paper, ALSQA, can be found in 🤗 at https://huggingface.co/datasets/biu-nlp/alsqa.
+> **_NOTE:_**  The evaluation test set presnted in the paper, ALSQA, can be found in 🤗 at https://huggingface.co/datasets/biu-nlp/alsqa.
 
 ## 2. Training
 ### Text Pair Classification
