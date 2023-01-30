@@ -5,7 +5,7 @@ This repository contains the training and evaluation code and data used in the E
 
 > **_NOTE:_**  The evaluation test set presnted in the paper, ALSQA, can be found in 🤗 at https://huggingface.co/datasets/biu-nlp/alsqa.
 
-<img src="figures/schematic.png" alt="schema" style="width:50%;"/><img src="figures/results.png" alt="results" style="width:45.35%;"/>
+<img src="figures/intro.png" alt="intro" style="width:100%;"/>
 
 
 ## 2. Training
